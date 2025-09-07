@@ -8,8 +8,7 @@ function About() {
             <div className="row">
                 <div className="tbcontainer col-6 w-40" style={{paddingTop: "3%", paddingLeft: "5%"}}>
                 <span>
-                    My name is Stephen, and I am a computer science and math student at Georgia Tech. My primary interests are in back-end development, algorithms, and low-latency computing. As a result, you might not be surprised that my favorite language is C++! I also have some practical experience in web development, primarily using Django and React. Outside of computer science,
-                    I enjoy playing chess, playing violin in the Georgia Tech Symphony Orchestra, and lifting weights. If you want to work on a project together or connect for any other reason, please reach out!
+                    My name is Christopher, and I'm studying computer science and math at Georgia Tech. My main interests are in machine learning, algorithms, and optimization techniques, so my best languages are Python and C++. PLease reach out to me if you're interested in working on a project together!
                 </span>
                 <TechStack />
                 </div>

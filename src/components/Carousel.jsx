@@ -4,7 +4,7 @@ const projects = [
     {
         image: '/assets/BackTesterImage.png',
         title: "Backtester",
-        github: 'https://github.com/stephenl99/Backtester',
+        github: 'https://github.com/clinder2/CppBacktester',
         description: 'This is a backtester written in C++. It supports numerous trading strategies and analyzes historic stock data. Future work involves support for live data analysis and exploration of machine learning trading strategies.',
     },
     {

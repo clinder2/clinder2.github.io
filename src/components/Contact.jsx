@@ -6,14 +6,14 @@ function Contact() {
             <h1 align={"center"}>Contact</h1>
             <p className={"text-center"}>
                 Please reach out via{" "}
-                <a href="sjtlinder@icloud.com" className="email-link">
-                    sjtlinder@icloud.com <br/>
+                <a href="clinderjr@icloud.com" className="email-link">
+                    clinderjr@icloud.com <br/>
                 </a> Also feel free to visit any of the following links:
             </p>
 
             <div className="contact-buttons">
                 <a
-                    href="https://github.com/stephenl99"
+                    href="https://github.com/clinder2"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="contact-button"
@@ -22,7 +22,7 @@ function Contact() {
                 </a>
 
                 <a
-                    href="https://www.linkedin.com/in/stephen-linder-b93563261/"
+                    href="https://www.linkedin.com/in/christopher-linder-84987a2a9/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="contact-button"

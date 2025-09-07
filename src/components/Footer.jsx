@@ -27,11 +27,11 @@ function Footer() {
                 <a href="https://github.com/stephenl99" target="_blank" rel="noopener noreferrer">
                     <FaGithub/>
                 </a>
-                <a href="https://www.linkedin.com/in/stephen-linder-b93563261/" target="_blank"
+                <a href="https://www.linkedin.com/in/christopher-linder-84987a2a9/" target="_blank"
                    rel="noopener noreferrer">
                     <FaLinkedin/>
                 </a>
-                <a href="https://leetcode.com/u/Slinder9999/" target="_blank" rel="noopener noreferrer">
+                <a href="https://leetcode.com/u/Clinder1/" target="_blank" rel="noopener noreferrer">
                     <SiLeetcode/>
                 </a>
                 <button className="theme-toggle-btn" onClick={toggleTheme}>
@@ -40,7 +40,7 @@ function Footer() {
             </div>
 
             <div className="footer-center">
-                © 2025 Stephen Linder
+                © 2025 Christopher Linder
             </div>
         </footer>
     );
