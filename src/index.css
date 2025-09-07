@@ -2,7 +2,7 @@
 :root {
     --primary-text: white;
     --secondary-text: #0d6efd;
-    --background-color: black;
+    --background-color: grey;
     --font-family: 'Open sans', 'serif';
 }
 body {
