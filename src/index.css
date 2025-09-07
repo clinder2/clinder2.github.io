@@ -1,8 +1,8 @@
 
 :root {
     --primary-text: white;
-    --secondary-text: #0d6efd;
-    --background-color: grey;
+    --secondary-text: #0000;
+    --background-color: tan;
     --font-family: 'Open sans', 'serif';
 }
 body {
