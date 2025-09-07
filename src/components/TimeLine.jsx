@@ -2,26 +2,29 @@ function TimeLine() {
     return (
         <div className="container mt-5 mb-5">
             <div className="row">
-                <div className="col-md-6 offset-md-3">
-                    <h4 style={{paddingBottom: 20}}>What I've been up to:</h4>
-                    {timelineItems.map((item, index) => (
-                        <div className="timeline-item d-flex align-items-center" key={index}>
-                            <img src={item.image} alt={item.title} className="timeline-image"/>
-                            <div className="timeline-content-container position-relative">
-                                <div className="timeline-dot"/>
-                                <div className="timeline-content">
-                                    <h4>{item.title}</h4>
-                                    <span className="second-text" style={{}}>{item.date}</span>
-                                    <ul>
-                                        {item.description.map((point, i) => (
-                                            <li key={i}>{point}</li>
-                                        ))}
-                                    </ul>
+                <div className="col-12">
+                    <h4 style={{paddingBottom: 40, textAlign: 'center', fontSize: '2rem', fontWeight: '700', color: 'var(--secondary-text)', textShadow: '0 0 20px rgba(0, 255, 136, 0.5)'}}>
+                        Timeline
+                    </h4>
+                    <div className="timeline">
+                        {timelineItems.map((item, index) => (
+                            <div className="timeline-item" key={index}>
+                                <img src={item.image} alt={item.title} className="timeline-image"/>
+                                <div className="timeline-content-container">
+                                    <div className="timeline-dot"/>
+                                    <div className="timeline-content">
+                                        <h4>{item.title}</h4>
+                                        <span className="second-text">{item.date}</span>
+                                        <ul>
+                                            {item.description.map((point, i) => (
+                                                <li key={i}>{point}</li>
+                                            ))}
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,23 +33,22 @@ function TimeLine() {
 
 const timelineItems = [
     {
-        title: "FanDuel",
-        date: "Summer 2025",
-        description: ["Incoming SWE Intern at FanDuel"],
-        image: "/assets/Fanduel.png"
+        title: "Bank of America",
+        date: "June 2025 – August 2025",
+        description: ["Software Engineer Intern", "Developed Java platform using Apache Kafka, Spring, and Jenkins", "Applied saga orchestration patterns for fault-tolerant event processing", "Reduced module standup time by 82% through dependency injection"],
+        image: "/assets/BofA.png"
     },
     {
-        title: "Georgia Tech",
-        date: "Graduating Spring 2026",
-        description: ["CS 2340 TA", "Information and Intelligence Specializations", "Math Minor"],
+        title: "Georgia Tech Physics Department",
+        date: "January 2025 – Present",
+        description: ["Machine Learning Researcher", "Training ML models using sparse regression for equation inference", "Utilizing NumPy and pandas for high-dimensional data analysis", "Reduced equation residuals by 700% through hyperparameter tuning"],
         image: "/assets/Georgia_Tech_Yellow_Jackets_logo.svg.png"
     },
     {
-        title: "Winship Cancer Institute",
-        date: "Summer 2024",
-        description: ["Medical Robotics Research"],
-        image: "/assets/emory-logo.png"
+        title: "Georgia Institute of Technology",
+        date: "2023 - December 2026",
+        description: ["Computer Science Major, Math Minor", "Concentrations: Theory and Artificial Intelligence", "Relevant Coursework: Data Structures, AI, Algorithms, Computer Architecture"],
+        image: "/assets/Georgia_Tech_Yellow_Jackets_logo.svg.png"
     }
-
 ]
 export default TimeLine;

@@ -1,5 +1,5 @@
 import {Image} from "react-bootstrap";
-import SelfImage from "/assets/SelfImage.jpeg";
+import SelfImage from "/assets/IMG_0567.jpeg";
 import Typing from "./Typing.jsx";
 
 function Home() {
@@ -11,12 +11,11 @@ function Home() {
                     <Typing/>
                 </div>
                 <div className="card-right w-50" style={{paddingTop: '90px'}}>
-                    <Image src={SelfImage} style={{width: '300px'}} className="img-fluid float-end" roundedCircle
-                           alt="Christopher Linder"/>
+                    <div className="neural-profile-image float-end">
+                        <Image src={SelfImage} style={{width: '300px'}} className="img-fluid" roundedCircle
+                               alt="Christopher Linder"/>
+                    </div>
                 </div>
-                <span className="w-50" style={{paddingTop: '0px', textAlign: 'center', fontSize: '24px' }}>
-                    Hello there, welcome to my website!
-                </span>
             </div>
         </div>
     )

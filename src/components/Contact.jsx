@@ -6,9 +6,9 @@ function Contact() {
             <h1 align={"center"}>Contact</h1>
             <p className={"text-center"}>
                 Please reach out via{" "}
-                <a href="clinderjr@icloud.com" className="email-link">
-                    clinderjr@icloud.com <br/>
-                </a> Also feel free to visit any of the following links:
+                <a href="mailto:clinderjr@icloud.com" className="email-link">
+                    clinderjr@icloud.com
+                </a>
             </p>
 
             <div className="contact-buttons">
@@ -31,7 +31,7 @@ function Contact() {
                 </a>
 
                 <a
-                    href="https://leetcode.com/u/Slinder9999/"
+                    href="https://leetcode.com/u/Clinder1/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="contact-button"
@@ -39,9 +39,6 @@ function Contact() {
                     <SiLeetcode/> LeetCode
                 </a>
             </div>
-            <blockquote className="contact-quote">
-                “Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.” – Mosher’s Law of Software Engineering
-            </blockquote>
         </div>
     )
 }

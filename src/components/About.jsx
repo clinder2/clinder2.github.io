@@ -8,7 +8,7 @@ function About() {
             <div className="row">
                 <div className="tbcontainer col-6 w-40" style={{paddingTop: "3%", paddingLeft: "5%"}}>
                 <span>
-                    My name is Christopher, and I'm studying computer science and math at Georgia Tech. My main interests are in machine learning, algorithms, and optimization techniques, so my best languages are Python and C++. PLease reach out to me if you're interested in working on a project together!
+                    My name is Christopher Linder, and I'm a senior Computer Science major with a Mathematics minor at Georgia Institute of Technology, graduating December 2026. I'm currently working as a Machine Learning Researcher at Georgia Tech's Physics Department, where I'm training ML models using sparse regression for equation inference and have reduced equation residuals by 700% through hyperparameter tuning. I previously interned as a Software Engineer at Bank of America during Summer 2025. My expertise spans Python, C++, Java, and various ML frameworks including PyTorch and Qiskit. I'm passionate about machine learning, algorithms, quantum computing, and quantitative finance. Please reach out if you're interested in collaborating on a project!
                 </span>
                 <TechStack />
                 </div>
