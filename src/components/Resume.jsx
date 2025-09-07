@@ -1,5 +1,5 @@
 import React from "react";
-import pdfFile from "/assets/main.pdf"
+import pdfFile from "/assets/Christopher_Linder_Resume (1).pdf"
 
 import { Document, Page, pdfjs } from 'react-pdf';
 import TechStack from "./TechStack.jsx";
@@ -17,7 +17,7 @@ function Resume() {
                       renderAnnotationLayer={false}/>
             </Document>
             <div align={"center"}>
-            <a href={pdfFile} download="Resume.pdf" className="download-button">
+            <a href={pdfFile} download="Christopher_Linder_Resume.pdf" className="download-button">
                 Download Resume
             </a>
             </div>

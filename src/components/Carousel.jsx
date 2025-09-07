@@ -3,21 +3,21 @@ import { Carousel } from 'react-bootstrap';
 const projects = [
     {
         image: '/assets/BackTesterImage.png',
-        title: "Backtester",
+        title: "Event-Driven C++ Backtesting Environment",
         github: 'https://github.com/clinder2/CppBacktester',
-        description: 'This is a backtester written in C++. It supports numerous trading strategies and analyzes historic stock data. Future work involves support for live data analysis and exploration of machine learning trading strategies.',
+        description: 'Implemented low-latency backtesting environment in C++ for validating trading strategies. Leveraged Boost C++ library and yfinance API to interface with Yahoo Finance historical stock data. Developed and tested custom mean reversion, genetic algorithm, and ML trading strategies. Achieved 33% higher cumulative returns with genetic algorithm over benchmark returns.',
     },
     {
         image: '/assets/Quantum.png',
-        title: 'Quantum State Preparation',
+        title: 'Quantum Engineering Framework',
         github: 'https://github.com/clinder2/Quantum-State-Preparation',
-        description: 'A collection of quantum frameworks to understand and perform quantum pruning. Included are ansatz pruning tools and genetic algorithms to optimize ansatz layer generation',
+        description: 'Implemented custom variational quantum circuit in Qiskit for state preparation. Developed mean-squared error cost function to fine-tune circuit parameters. Created novel simulated annealing algorithm to optimize classical feedback loop by 75%. Utilized Qiskit, Python, pandas, and Monte Carlo simulation techniques.',
     },
     {
         image: '/assets/AFF.png',
         title: 'Atlanta Food Finder',
         github: 'https://github.com/stephenl99/AtlantaFoodFinder',
-        description: 'Atlanta Food Finder is an interactive web app to help users find restaurants in the Atlanta area. Created with Django framework and utilizing the Google Maps API.',
+        description: 'Created a full-stack web application using Django integrated with Google Maps API. Utilized Google Maps API to perform geolocation of restaurants based on SQLite database. Practiced Agile software development methods and conducted daily scrums. Built with Python, Django, SQLite, JavaScript, HTML/CSS, and DOM manipulation.',
     },
 ];
 
@@ -38,7 +38,7 @@ const ProjectCarousel = () => {
                                     onPointerDown={(e) => e.stopPropagation()}
                                     onClick={(e) => e.stopPropagation()}
                                 >
-                                    <img src="/assets/GitHub.png" alt="GitHub" className="github-icon"/>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="github-icon"/>
                                 </a>
                                 <h3 className="carousel-title">{project.title}</h3>
                                 <div className={"carousel-image-holder"}>

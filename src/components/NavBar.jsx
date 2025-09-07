@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function Name() {
-    return <h1 className={"logo"}>Clinder</h1>;
+    return <h1 className={"logo"}>Christopher Linder</h1>;
 }
 
 function NavBar() {
